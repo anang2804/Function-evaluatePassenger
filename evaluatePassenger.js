@@ -35,10 +35,10 @@ console.log(evaluatePassenger({
 console.log(evaluatePassenger({
     name: 'Tono',
     id: 10,
-    temperature: 40,
-    travelHistory: ['Maroko', 'Perancis', 'Burma']
+    temperature: 25,
+    travelHistory: ['Korea']
 }));
-// Passenger 10 Tono Sick
+// Passenger 10 Tono Potential Carrier
 
 console.log(evaluatePassenger({
     name: 'Tsubasa',
@@ -47,3 +47,10 @@ console.log(evaluatePassenger({
     travelHistory: ['Brazil']
 }));
 // Passenger 15 Tsubasa Healthy
+
+console.log(evaluatePassenger({
+    name: 'Anang',
+    id: 28,
+    temperature: 40,
+    travelHistory: ['Korea']
+}));

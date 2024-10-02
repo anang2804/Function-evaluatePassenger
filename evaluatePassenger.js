@@ -44,14 +44,6 @@ console.log(evaluatePassenger({
     name: 'Tsubasa',
     id: 15,
     temperature: 30,
-    travelHistory: ['China', 'Japan', 'Korea', 'Singapore']
+    travelHistory: ['Brazil']
 }));
-// Passenger 15 Tsubasa Potentional carrier
-
-console.log(evaluatePassenger({
-    name: 'Anang',
-    id: 28,
-    temperature: 30,
-    travelHistory: ['Indonesia']
-}));
-
+// Passenger 15 Tsubasa Healthy
